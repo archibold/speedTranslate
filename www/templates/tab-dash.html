@@ -1,0 +1,13 @@
+<ion-view view-title="Dashboard">
+  <ion-content class="padding">
+   <span class="text to-translate">{{toTranslate}}</span>
+    <div class="center">
+      <span class="text" ng-class="translation==''? 'icon ion-mic-a': ''">{{translation}}</span>
+    </div>
+  </ion-content>
+  <ion-footer-bar>
+  <div class="button-bar">
+    <button class="button button-clear button-icon ion-earth" ng-click="translate()"></button>
+  </div>
+  </ion-footer-bar>
+</ion-view>
